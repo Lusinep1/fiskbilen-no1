@@ -116,7 +116,7 @@ form {
 	.img {
 		position: absolute;
 		height: 70px;
-		margin-left: 100px;
+		margin-right: 75px;
 		border-radius: 15px 50px;
 	}
 }
