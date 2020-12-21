@@ -115,8 +115,9 @@ form {
 @media (min-width: 480px) {
 	.img {
 		position: absolute;
-		height: 50px;
-		margin-left: 255px;
+		height: 70px;
+		margin-left: 100px;
+		border-radius: 15px 50px;
 	}
 }
 .form-control {
