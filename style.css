@@ -112,7 +112,7 @@ form {
 	transition-delay: 44ms;
 	cursor: pointer;
 }
-@media (min-width: 480px) {
+@media (max-width: 480px) {
 	.img {
 		position: absolute;
 		height: 70px;
