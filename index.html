@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen's Fiskbilen</title>
+</head>
+<body>
+    <div class="container">
+      <img src="img/logo-shop (1).png" alt="fiskbilen logo" class="img">
+        <form>
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" 
+              class="form-control" placeholder="Enter your name" 
+              required>
+          </div>
+
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email" name="email" id="email"
+              class="form-control" placeholder="Enter your Email"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label id="location" for="location"
+              >Location<span class="clue">(optional)</span></label
+            >
+            <input
+              type="text"
+              name="location"
+              id="location"
+              class="form-control"
+              placeholder="your location"
+            />
+          </div>
+    
+          <div class="form-group">
+            <p>Additional info for me?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Bring me my Fisk, will ya"></textarea>
+            
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
