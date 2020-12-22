@@ -1,6 +1,6 @@
 /*import reset code*/
 
-@import url("reset.css");
+/* @import url("reset.css"); */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
@@ -21,6 +21,7 @@ body {
 	font-family: 'Rubik Mono One', sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
+	font-weight: 100;
 	line-height: 1.4;
 	color: var(-color-darkblue);
 	margin: 0;
@@ -163,4 +164,8 @@ form {
 	color: inherit;
 	border-radius: 2px;
 	cursor: pointer;
+}
+footer {
+	text-align: center;
+	font-weight: 70;
 }
